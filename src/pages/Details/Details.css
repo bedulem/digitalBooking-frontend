@@ -1,0 +1,300 @@
+.product-header,
+.product-location {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-header {
+    background-color: var(--primary-color);
+}
+
+.product-header p {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-header h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.product-header button {
+    background-color: transparent;
+    color: #fff;
+}
+
+.product-location {
+    background-color: var(--primary-color-light);
+    align-items: center;
+}
+
+.product-location__info {
+    display: flex;
+    gap: 10px;
+}
+
+.product-location__info p {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.product-content__actions {
+    display: flex;
+    gap: 10px;
+    margin: 1rem 0;
+}
+.product-content__actions img{
+    cursor: pointer;
+}
+
+.product-content__gallery {
+    position: relative;
+}
+
+.product-content__gallery button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+.product-content__gallery-images {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.product-content__gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-content__gallery img:nth-of-type(1) {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+h2.subtitle {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Product-services__container {
+    margin: 2rem 0;
+}
+
+.product-services__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px 20px;
+}
+
+.product-dates {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color-light);
+    padding-bottom: 40px;
+}
+
+.product-dates__container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-btn-reservation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+}
+
+.product-feat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.product-feat h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+}
+
+.product-feat ul {
+    margin: 30px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.product-feat li {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.product-map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.rdrCalendarWrapper {
+    position: relative;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+.lightbox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.lightbox__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+}
+.lightbox__gallery{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 500px;
+}
+.lightbox__close{
+    position: absolute;
+    top:2rem;
+    right: 0;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: right;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+/* .rdrInRange, .rdrStartEdge, .rdrEndEdge {
+    border-radius: 50% !important;
+    width:30px;
+    height:30px;
+    left: 8px !important;
+    top: 3px !important;
+} */
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-align: center;
+}
+
+.rdrMonthAndYearPickers {
+    display: none;
+    visibility: hidden;
+}
+
+.rdrMonthAndYearWrapper {
+    height: 0px !important;
+}
+
+.rdrNextButton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: var(--secondary-color) !important;
+    border-radius: 50% !important;
+}
+
+.rdrNextButton i {
+    border-color: transparent transparent transparent rgb(255, 255, 255) !important;
+}
+
+.rdrPprevButton {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: var(--secondary-color) !important;
+    border-radius: 50% !important;
+}
+
+.rdrPprevButton i {
+    border-color: transparent rgb(255, 255, 255) transparent transparent !important;
+}
+
+@media screen and (max-width: 768px) {
+    .product-content__gallery-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-feat {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .product-content__gallery-images {
+        grid-template-columns: 1fr;
+    }
+
+    .product-content__gallery img:nth-of-type(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .product-feat {
+        grid-template-columns: 1fr;
+    }
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: white!important;
+}
+.swiper-pagination{
+    color: white!important;
+}
+.img-swip{
+    width:-webkit-fill-available;
+}

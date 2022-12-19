@@ -1,0 +1,77 @@
+div.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+div.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.container button {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 5px;
+    padding: 0 14px;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+.container button::after {
+    position: absolute;
+    right: 6px;
+    top: 10px;
+    content: "\25b2";
+    rotate: 180deg;
+}
+
+.container button.expanded::after {
+    content: "\25b2";
+    rotate: 0deg;
+}
+
+ul.options {
+    border: 1px solid var(--bg-color);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    display: none;
+    list-style: none;
+    padding: 4px 0;
+    margin-top: -4px;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+ul.show {
+    display: block;
+}
+
+ul.options li {
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--primary-color-light);
+}
+
+ul.options li:active,
+ul.options li:focus,
+ul.options li:hover,
+ul.options li[aria-selected="true"] {
+    background: var(--primary-color-light);
+    cursor: pointer;
+}

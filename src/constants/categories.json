@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Hoteles",
+        "count": 50,
+        "img":"images/fotos/hotel1.svg"
+    },
+    {
+        "id": 2,
+        "name": "Hostels",
+        "count":10,
+        "img":"images/fotos/hostel1.svg"
+    },
+    {
+        "id": 3,
+        "name": "Departamentos",
+        "count": 20,
+        "img":"images/fotos/depto1.svg"
+    },
+    {
+        "id": 4,
+        "name": "Bed and breakfast",
+        "count": 5,
+        "img":"images/fotos/bandb1.svg"
+    }
+]

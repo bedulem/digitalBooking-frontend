@@ -1,0 +1,68 @@
+.rs-picker-menu{
+    z-index: 10;
+}
+
+.conteiner-date{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+}
+
+.input-box .calendar{
+    position:absolute;
+    left:-240px;
+    top:45px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 5px 15px;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 15%);
+}
+@media(max-width:844px){
+    .input-box .calendar{
+        left:-200px;
+    }
+}
+@media(max-width:763px){
+    .input-box .calendar{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        left:-50px;
+    }
+    .input-box .calendar .btn-calendar{
+        align-self: flex-end;
+    }
+}
+
+.input-box .calendar .btn-calendar{
+    float:right;
+    margin-right:25px;
+}
+
+
+
+.rs-picker-daterange-header{
+    display: none;
+}
+
+.rs-picker-default .rs-picker-toggle{
+    border:none;
+}
+.rs-stack-item svg{
+    display: none;
+}
+.rs-picker:not(.rs-picker-disabled):hover, .rs-picker.rs-picker-focused,.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-btn:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:focus, .rs-picker-default:not(.rs-picker-disabled) .rs-btn-active, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active{
+    border-color: none!important;
+}
+.rs-picker-default:not(.rs-picker-disabled) .rs-btn:hover, .rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle:hover,.rs-picker-default:not(.rs-picker-disabled) .rs-picker-toggle-active{
+    border-color: none!important;
+}
+
+.rs-anim-fade.rs-anim-in{
+    margin-top:6px;
+}

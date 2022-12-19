@@ -1,0 +1,38 @@
+.alert {
+    position: relative;
+    font-size: var(--font-body);
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    border-radius: 0.25rem;
+}
+
+.alert-info {
+    color: var(--info-color);
+    background-color: rgba(var(--info-color-rgb), 0.1);
+    border: 1px solid rgba(var(--info-color-rgb), 0.3);
+}
+.alert-success {
+    color: rgb(var(--success-color-rgb));
+    background-color: rgba(var(--success-color-rgb), 0.1);
+    border: 1px solid rgba(var(--success-color-rgb), 0.3);
+}
+.alert-warning {
+    color: rgb(var(--warning-color-rgb));
+    background-color: rgba(var(--warning-color-rgb), 0.1);
+    border: 1px solid rgba(var(--warning-color-rgb), 0.3);
+}
+.alert-danger {
+    color: rgb(var(--danger-color-rgb));
+    background-color: rgba(var(--danger-color-rgb), 0.1);
+    border: 1px solid rgba(var(--danger-color-rgb), 0.3);
+}
+
+.alert-close-icon {
+    position: absolute;
+    text-align: center;
+    top: calc(50% - 0.5rem);
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}

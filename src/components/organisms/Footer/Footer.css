@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 10px 40px;
+}
+
+.social-container {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social-container img{
+    filter:brightness(0) invert(1)
+}
+
+@media (max-width: 576px) {
+    .social-container{
+        display:none;
+    }
+}

@@ -1,0 +1,36 @@
+.select-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.select-input {
+    box-sizing: border-box;
+    height: 40px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 5px;
+    padding: 0 14px;
+    outline: 0;
+    color: var(--primary-color);
+    width: fit-content;
+}
+
+.select-input:focus {
+    background-color: #fff;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.error-text {
+    /* position: absolute; */
+    /* bottom: -20px;
+    right: 0; */
+    text-align: right;
+    color: var(--variant-error);
+    font-size: 12px;
+}

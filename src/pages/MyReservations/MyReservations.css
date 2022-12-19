@@ -1,0 +1,41 @@
+.secction-reservation{
+    padding: 20px 40px;
+}
+
+.reservas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media (max-width: 1600px){
+    .reservas {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
+@media (max-width: 922px){
+    .reservas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+}
+
+.section-no-reserv{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content:center;
+    align-items: center;
+    opacity: 0.5;
+}
+.section-no-reserv h3{
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.msg-reservation-ok{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+}
+.msg-reservation-ok .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    border-radius:8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    padding:35px;
+}
+
+.msg-reservation-ok h1{
+    font-size: 36px;
+    margin:10px;
+    line-height: 40px;
+}
+.msg-reservation-ok p{
+    font-size: 20px;
+    margin-bottom:30px;
+    text-align: center;
+}

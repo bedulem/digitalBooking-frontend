@@ -1,0 +1,28 @@
+.btn-filled {
+    background-color: var(--secondary-color);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.btn-padding {
+    padding: 10px 55px;
+}
+
+.btn-outlined {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.btn-filled:hover,
+.btn-outlined:hover {
+    opacity: 0.8;
+}
+
+.fullWidth {
+    width: 100%;
+}

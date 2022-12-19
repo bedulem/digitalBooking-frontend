@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card-select { 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+    background-color: #fff;
+    margin-top: 5px;
+    position: absolute;
+    padding: 15px;
+    z-index:10;
+    cursor: pointer;
+    width:100%;
+}
+
+.card-select-cities {
+    height: 228px;
+    max-width: 400px;
+    min-width: 270px;
+    overflow: auto;
+} 
+
+.select-icon {
+    margin: 0px 21px 0px 10px;
+}
+
+.content-city {
+    height: 59px;
+    position: relative;
+    border-bottom: 1px solid var(--secondary-color);
+    display: flex;
+    align-items: center;
+}
+
+.select-country{
+    color: var(--primary-color);
+    margin-top: 0px;
+}

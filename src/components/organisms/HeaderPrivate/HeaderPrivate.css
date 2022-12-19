@@ -1,0 +1,50 @@
+.logged-container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+    border-left: 1px solid var(--primary-color-light);
+}
+.avatar{
+    background-color:var(--primary-color-dark);
+    border-radius: 100%;
+    padding:8px;
+
+}
+.user-name{
+    color: var(--info-color);
+    margin: 0px 10px;
+}
+.user-name span{
+    color:var(--secondary-color);
+}
+
+.logged-container img{
+    position:absolute;
+    top:-8px;
+    right:0px;
+    cursor:pointer;
+    transition: all 0.4s;
+}
+.logged-container img:hover{
+    opacity: 0.6
+}
+
+.menu-desktop{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    
+}
+.menu-desktop p.menu-text{
+    color:var(--secondary-color);
+    transition: all 0.4s;
+}
+.menu-desktop p.menu-text:hover{
+    opacity: 0.6
+}
+
+.menu-desktop .extra-functions{
+    display:flex;
+    gap: 20px;
+}

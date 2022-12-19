@@ -1,0 +1,37 @@
+.services-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services-list__noLabels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.services-list__item {
+    display: flex;
+    gap: 10px;
+}
+
+.services-list__item .tooltip {
+    position: relative;
+    display: inline-block;
+}
+.services-list__item .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.services-list__item .tooltip:hover .tooltiptext {
+    visibility: visible;
+}

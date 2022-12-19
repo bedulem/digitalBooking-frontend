@@ -1,0 +1,22 @@
+.rate-container {
+    display: inline-block;
+}
+.rate {
+    margin: 0 1px;
+}
+.rate-text{
+    margin: 0 2px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color-dark);
+    opacity: 0.5;
+}
+.rate-fill svg {
+    fill: var(--secondary-color);
+}
+.rate-empty{
+    opacity: 0.3;
+}
+.rate-empty svg {
+    fill: #000;
+}
