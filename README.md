@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# DigitalBooking-backend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### https://github.com/bedulem/digitalBooking-frontend/
 
-## Available Scripts
+## Proyecto integrador de la carrera Certified Tech Developer.
 
-In the project directory, you can run:
+El PI es una aplicación práctica de los conceptos teóricos estudiados durante la carrera, y tiene como objetivo el desarrollo de un sitio web. Funciona como una estrategia didáctica que consiste en la realización de un conjunto de actividades interrelacionadas con un inicio, un desarrollo y un final.
 
-### `npm start`
+Este proyecto se trata del desarrollo de una plataforma de servicios web de reservas de distintos tipos de alojamiento, para la empresa Digital Booking, quien busca rediseñar su producto a traves de una transformación digital.
+Se trabajó en equipo de 5 integrantes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Equipo de desarrollo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Back-end: Belén Santochi
+- Front-end: Delfina Molter y Eduard Caballero
+- Testing: Agostina Finucci
+- Infraestructura: Fabian Rojas
 
-### `npm test`
+### Mi rol en el proyecto: Back-end
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Actividades desarrolladas:
 
-### `npm run build`
+- Diseño y modelado de la capa de acceso a los datos.
+- Utilización de hibernate a través de Spring Data para mapeo de clases.
+- Creación de servicios y exposicion a través de las APIs Rest.
+- Desarrollo de CRUDs de enditades de dominio.
+- Implementación una base de datos relacional MySQL y gestión las operaciones.
+- Desarrollar el modelado lógico (DER) según los requisitos necesarios de la aplicación, sus entidades, atributos y relaciones.
+- Manejo de errores a través de excepciones.
+- Registo los errores y el rendimiento utilizando Log4j.
+- Autentificación y autorización con Spring Security.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Metodología SCRUM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para llevar a cabo este proyecto se tomaron las herramientas que nos brinda la metodología ágil de trabajo SCRUM.
+Participamos de ceremonias diarias que nos ayudaron a organizarnos yllegar acumplir con cada SPRINT.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Desarrollado en 4 Sprints
 
-### `npm run eject`
+| Sprint | Tema                                        | Actividad                                                                                                                                                       |
+| ------ | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | Página home con buscador y login            | Realizar una demo mostrando la elaboración de la pantalla de home y los bloques de login y registro. Presentar una API de categorías funcionales.               |
+| 2      | Página de detalles del producto             | Realizar una demo mostrando la elaboración de la pantalla de producto. Presentar API de ciudades y producto y conectarlas con las pantallas de home y producto. |
+| 3      | Página de reserva y confirmación de reserva | Realizar una demo mostrando la realización de la pantalla de reserva y confirmación de reserva. Presentar API de reserva y login.                               |
+| 4      | Features extras y presentación final        | Demo final basada en la presentación de la aplicación completa satisfaciendo los requerimientos obligatorios del proyecto integrador.                           |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Funcionalidaes desarrolladas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Página de admin.
+- Página de registro de usuario.
+- Página de inicio con buscador y login.
+- Página de detalles de producto.
+- Página de reserva de producto.
+- Página de confirmación de pedido.
+- Página de favoritos.
